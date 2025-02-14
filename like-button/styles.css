@@ -1,0 +1,31 @@
+#likeButton{
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: 3px solid grey;
+    color: grey;
+    padding: 10px;
+    width: 100px
+}
+
+#likeButton.unliked{
+    background-color: white;
+    border: 3px solid grey;
+    color: grey;
+}
+
+#likeButton.unliked:hover,
+#likeButton.loading {
+    border-color: indianred;
+    color: indianred;
+    cursor: pointer;
+}
+
+#likeButton.liked {
+    background-color: indianred;
+    border-color: indianred;
+    color: white;
+}
+
+#likeButton.liked:hover {
+    cursor: pointer;
+}
